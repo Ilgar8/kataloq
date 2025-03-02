@@ -1,0 +1,75 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.catalog {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  max-width: 1200px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.product {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+.images img {
+  width: 40%;
+  border-radius: 10px;
+  transition: opacity 0.3s;
+}
+.images img:hover {
+  opacity: 0.8;
+}
+.stul-box {
+ border: 1px solid yellow;
+
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border-radius: 9mm;
+}
+.product h2 {
+  font-size: 30px;
+  /* border: 1px solid yellow; */
+  color: yellow;
+  margin-top: 10px;
+}
+.product p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+.product ul {
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  color: #666;
+}
+.product ul li {
+  padding: 3px 0;
+}
